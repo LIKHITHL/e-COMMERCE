@@ -1,0 +1,22 @@
+.banner-card {
+    position: relative;
+    background-image: linear-gradient(rgba(254, 254, 254, 0.2), rgba(250, 249, 249, 0.2)), url(./images/Home\ Card.jpeg);
+    background-size: cover;
+    width: 100%;
+    object-fit: contain;
+    height: 700px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0);
+}
+
+.slider-bg {
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to left bottom, #484145, #4d484c, #514e54, #56555a, #5b5c61, #56565b, #505154, #4b4b4e, #3a393b, #292729, #181718, #000000);
+}
